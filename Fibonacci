@@ -1,0 +1,25 @@
+public class Fibonacci {
+
+	public static void main(String[] args) {
+		
+		 int n = 10;
+		 
+	        Fibonacci(n);
+	}
+		static void Fibonacci(int n)
+	    {
+	        int a1 = 0, b2 = 1;
+	 
+	        int result = 0;
+	 
+	        while (result < n) {
+	 
+	            System.out.print(a1 + " ");
+	
+	            int c3 = b2 + a1;
+	            a1 = b2;
+	            b2 = c3;
+	            result = result + 1;
+	        }
+}
+}
