@@ -1,0 +1,25 @@
+package javapackage;
+
+public class Overriding {
+
+	public static void main(String[] args) {
+
+	}
+
+	public class A {
+
+		public static void r1 () {
+
+		}
+
+		public class B extends A {
+
+			public static void r1 () {
+
+			}
+		}
+	}
+}
+
+No we can not override static method, it shows following error - Error: Could not find or load main class javapackage.Overriding
+                                                                 Caused by: java.lang.ClassNotFoundException: javapackage.Overriding
