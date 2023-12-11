@@ -1,0 +1,8 @@
+package javapackage;
+
+	abstract class Abstract {
+		public static void main(String[] args){
+			System.out.println("Inside abstract main");
+		}
+	}
+	
