@@ -1,0 +1,9 @@
+package javapackage;
+
+abstract class Test {
+	
+	   public static void xyz() {
+		   
+		   Test.xyz();
+	}
+}
