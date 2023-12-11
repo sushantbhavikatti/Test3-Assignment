@@ -1,0 +1,15 @@
+An abstract class is not required to have an abstract method in it.
+
+package javapackage;
+
+
+public abstract class Abstract {
+
+
+	public void b() {
+
+	}
+
+	abstract void draw(); {
+	}
+}
