@@ -1,0 +1,21 @@
+package javapackage;
+
+
+public abstract class Abstract {
+
+	//public abstract class ClassOne { 
+		  
+	    public void print() {
+	    
+	        System.out.println("Hello in abstract class"); 
+	    } 
+	} 
+	class CreateClassOne { 
+	  
+	    public static void main(String[] args) {
+	    
+	        Abstract obj = new Abstract(); 
+	    } 
+	}
+
+No, we can not create instance of abstract class. It will give error like "Cannot instantiate the type Abstract"
