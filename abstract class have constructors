@@ -1,0 +1,14 @@
+package javapackage;
+
+
+public abstract class Abstract {
+
+	abstract class DisplayTest {
+
+		DisplayTest() {
+			
+		}
+		
+	abstract void display();
+}
+}
