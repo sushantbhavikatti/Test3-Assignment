@@ -1,0 +1,27 @@
+package javapackage;
+
+public class RuntimePolymorphism {
+
+
+		class p {
+
+			public void car() {
+				System.out.println("A");			
+
+			}
+
+			public void bike () {
+				System.out.println("B");
+			}
+
+			class c extends p {
+
+				public void bike () {
+					System.out.println("BB");
+				}
+			}
+		}
+	}
+
+overriding is nothing but the runtime polymorphism.
+at runtime child class can override the parent class method and not vice a versa.
