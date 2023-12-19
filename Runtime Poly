@@ -1,0 +1,25 @@
+package javapackage;
+
+public class Car {
+
+	public void method1(){
+		System.out.println("Car-method1");
+	}
+}
+class Maruti extends Car{
+	public void method1(){
+		System.out.println("Maruti-method1");
+	}
+}
+
+class RuntimePoly{
+	public static void main(String...args){
+		Car c1 = new Maruti();
+		c1.method1();
+		Maruti c2 = new Car();
+		c2.method1();
+	}
+}										
+
+this code 'Maruti c2 = new Car();' is not valid because its showing the error like "can not convert from Car to Maruti"
+the code should be like "Maruti c2 = new Maruti();"
