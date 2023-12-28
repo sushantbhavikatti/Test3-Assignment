@@ -1,0 +1,3 @@
+Abstraction - Aprocess of defining a class by hiding their implimentation and showing the functional behavior of an application.
+
+Encapsulation - The process of creating a class by hiding internal data from the outside world and if will try to access it then we can access it only through publicaly exposed method.
